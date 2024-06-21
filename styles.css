@@ -1,14 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
 
 * {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: "Arimo", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
-img {
-    width: 45px;
-    height: 45px;
+body {
+    background-color: #CED6F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
+/* 490 x 600 mide el contenedor con todo */
+.contenedor {
+    background-color: #FFFFFF;
+    width: 490px;
+    padding: 30px 40px;
+    border-radius: 10px;
+    color: black;
+}
+
+.contenedor .header {
+    position: relative;
+    width: 100%;
+    height: 210px;
+    border-bottom: 2px solid gainsboro;
+    margin: 20px 0px 40px 0px;
+}
+
+.header h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.header img {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    right: 92px;
+    top: -20px;
+    rotate: 25deg;
+}
+
+.header h2 {
+    font-weight: 700;
+    font-size: 26px;
+    margin: 10px 0px;
+}
+
+.header p {
+    font-size: 14px;
+}
+
